@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Linden+Hill:ital@0;1&display=swap');
+
+.header {
+  background-image: url(/background.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+
+  .card {
+    padding: 4rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--lightDark);
+    color: var(--text);
+    border: 10px solid var(--border);
+    border-radius: 0px;
+
+    h1 {
+      font-size: 96px;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+      font-family: 'Limelight', sans-serif;
+      font-weight: 400;
+      line-height: 116.86px;
+    }
+
+    p {
+      font-size: 32px;
+      font-family: 'Linden Hill', serif;
+      font-weight: 400;
+      line-height: 43.13px;
+    }
+  }
+}
